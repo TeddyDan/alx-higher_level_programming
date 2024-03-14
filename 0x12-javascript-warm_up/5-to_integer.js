@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 const process = require('process');
 let number;
@@ -11,4 +10,3 @@ if (process.argv.length > 2) {
   }
 }
 console.log(message);
-
