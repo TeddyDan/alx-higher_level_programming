@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 const process = require('process');
 let message;
@@ -10,4 +9,3 @@ if (process.argv.length === 3) {
   message = 'Arguments found';
 }
 console.log(message);
-

@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 const process = require('process');
 const argv = process.argv;
@@ -9,4 +8,3 @@ if (argc < 4) {
   const array = argv.slice(2).sort((a, b) => a - b).reverse();
   console.log(array[1]);
 }
-
